@@ -1,0 +1,146 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.centered-box {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-box {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-box1 {
+  width: 100%;
+  /* margin: 10px 0; */
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #c8c8c8;
+  margin: 0 10px;
+  width: 93.996px;
+}
+.text {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #007f61;
+}
+.price {
+  font-size: 9px;
+  padding-top: 7%;
+  text-decoration: line-through;
+  color: #9f9f9f;
+}
+.shipping {
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 500;
+  color: #007f61;
+}
+.total {
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  padding-top: 4%;
+}
+.button {
+  margin-top: 5%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-evenly;
+  background: #007f61;
+  border-radius: 4px 4px 4px 0px;
+  color: #fff;
+}
+.trade {
+  font-size: 12px;
+  font-weight: 300;
+  position: relative;
+  left: 33%;
+  margin-top: 2%;
+}
+.box2 {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.adjustment {
+  color: #000;
+
+  font-size: 9.942px;
+
+  font-weight: 400;
+
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.adjustment1 {
+  color: #000;
+  margin-top: 1%;
+  font-size: 9.942px;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding-bottom: 1%;
+}
+.filter {
+  border-radius: 1.808px;
+  border: 0.904px solid #090909;
+  font-size: 10.846px;
+  background: #fff;
+  width: 15%;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  margin-left: 2%;
+  font-weight: 400;
+}
+.box2:hover {
+  background: #f4fbf9;
+}
+input[type="radio"]#Yellow {
+  accent-color: #007f61;
+}
+.inner-div {
+  display: none;
+  padding: 10px;
+  margin-top: 10px;
+}
